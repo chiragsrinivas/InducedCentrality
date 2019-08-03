@@ -1,0 +1,13 @@
+Package: InducedCentrality
+Type: Package
+Title: Calculate Exogenous Induced Centrality, Endogenous Induced Centrality and Total Induced Centrality
+Version: 0.1.0
+Author: Chirag Gangoor Srinivas
+Maintainer: Chirag Gangoor Srinivas <chiragsrinivas@gmail.com>
+Description: This package calculates the exogenous, endogenous and total induced centralities for various centrality measures like Freeman's degree centrality, Freeman's betweenness centrality, Latora closeness centrality and Bonacich eigenvector centrality. 
+License: GPL-2
+Encoding: UTF-8
+LazyData: FALSE
+Imports: 
+    igraph,dplyr,network,gridExtra,centiserve
+RoxygenNote: 6.1.1
